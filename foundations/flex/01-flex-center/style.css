@@ -13,3 +13,12 @@
   width: 80px;
   height: 80px;
 }
+
+.box, .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Simplemente hacer que la pagina tenga un flow flex y centrarlo
+tanto horizontal como verticalmente */
