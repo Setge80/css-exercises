@@ -47,7 +47,15 @@ ul {
   list-style-type: none;
 }
 
-/*Solucion*/
+/*Solucion: Tienes que ver esto como contenedores, el header va a formar un contenedor
+que tendra como FI al logo, links, notificacion y profile-image, entre
+estos FI quieres que haya gaps, espacio entre ellos y para generar
+la separacion que se ve entre elementos de la izquierda y de la derecha
+debes de hacer que estos FI se agrupen y eso lo haces poniendo en el 
+HTML 2 nuevas clases junto a display:flex que generaran 2 FC con 2 FI cada uno 
+(izq: logo y links, der: notificacion y image)y a parte todo el tema
+de los padding y margin para que no se peguen los distintos elementos
+entre si.*/
 
 .header {
   display: flex;
