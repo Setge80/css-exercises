@@ -24,3 +24,40 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*Solucion: Tambien hay edit en el HTML, debes generar divs para cada planta,
+de esta manera generas un contenedor general (images-text) y varios FI 
+(cada planta)
+Despues de ver solucion oficial, no es necesario crear tantas clases, al final quieres
+que las plantas ocupen lo mismo, generas una misma clase para todas (info) y le das 
+una maxima anchura que es lo unico que le quieres aplicar.
+*/
+
+
+.title {
+  justify-content: center;
+  display: flex;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.images-text{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  justify-content:space-around;
+  align-self: center;
+  margin:auto;
+  padding: 8px;
+  max-width: 200px;
+  flex-wrap: wrap;
+}
+
+.text {
+ text-align: center;
+ padding: 8px;
+}
