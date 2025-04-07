@@ -68,7 +68,9 @@ button.cancel {
   color: royalblue;
 }
 
-/*Solucion*/
+/*Solucion*: he hecho muchos compartimentos para generar la estructura, ademas la he 
+hecho en papel para ver como seria la estructura, parece mas dificil de lo que realmente
+es. Simplemente generas divisiones y vas jugando con su disposicion./
 
 .modal {
   display: flex;
