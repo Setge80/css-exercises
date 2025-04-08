@@ -90,6 +90,7 @@ li{
   flex-wrap: wrap;
   gap: 32px;
   padding: 48px;
+  margin:0
 }
 
 .card {
