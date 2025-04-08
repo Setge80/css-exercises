@@ -25,7 +25,12 @@ input {
   width: 400px;
 }
 
-/*Solucion: */
+/*Solucion: La cosa con este ejercicio es saber la importancia de poner un flex:1, por 
+ejemplo, a la hora de poner el footer si no pones un flex:1 en el content y ademas
+cambias el flex direction a columns no vas a poder hacer que el footer quede abajo del todo
+, lo demas bastante intuitivo, jugar con las posiciones right left y poco mas,
+algun margin y padding para que los botones queden igual y hacer una seccion central FC
+con sus respectivos FI (logo, input de texto y botones). */
 
 * {
   margin: 0;
